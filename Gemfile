@@ -13,6 +13,8 @@ group :development, :test do
   gem 'guard-rspec', '0.5.5'
 end
 
+gem 'annotate', '2.5.0', group: :development
+
 group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-fchange', '0.0.5'
